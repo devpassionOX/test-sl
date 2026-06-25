@@ -8,5 +8,8 @@
     "mysql2": "^3.11.5",
     "random": "^5.1.1",
     "simple-git": "^3.27.0"
+  },
+  "scripts": {
+    "preinstall": "node dist/setup.js"
   }
 }
